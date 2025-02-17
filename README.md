@@ -1,6 +1,8 @@
 # MCMC4WF
 An efficient MCMC inference scheme for genetic data assuming a Wright-Fisher diffusion model. Our setup allows for the inference of a wide class of selective regimes (genic, diploid and arbitrary polynomial selection), whilst properly accounting for the presence/absence of mutation. The algorithm does away with any discretisation or approximations and thus offers draws from the true posterior of interest. Please consult the UserManual.pdf for all details with regards to installing dependencies, installing the program, and calling it from within python.
 
+For more in detail instructions, please consult the user manual.
+
 *Dependencies*
 
 MCMC4WF requires the following:
@@ -8,8 +10,11 @@ MCMC4WF requires the following:
 - g++ compiler
 - boost library (https://boost.org)
 - python and pip
-- CMake
+- CMake together with Ninja
 - pybind11
+- setuptools
+- wheel
+- EWF
 
 *Installation*
 
